@@ -1,0 +1,71 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+img{
+  display: block;
+  max-width: 100%;
+   
+}
+.search-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 75px;
+  border-radius: 5px;
+  background-color: rgba(183, 184, 204, 0.616);
+  margin-bottom: 20px;
+}
+.search-form input{
+  font-size: 30px;
+  padding:5px 15px 5px 15px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid rgba(231, 136, 136, 0.274);
+  border-radius: 20px;
+  background-color: transparent;
+}
+.search-form button{
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  cursor: pointer;
+  padding: 30px 20px;
+  border: 2px solid rgba(89, 214, 110, 0.274);
+    border-radius: 20px;
+}
+.gallery{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photo-card{
+  max-width: 300px;
+}
+.info{
+  justify-content: center;
+  display: flex;
+  gap:20px;
+}
+.thumb{
+  width: 300px;
+  height: 250px;
+}
+.thumb img{
+  height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
