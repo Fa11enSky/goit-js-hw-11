@@ -13,6 +13,8 @@
 }
 body{
     background: #f5f7f8;
+    margin: 0;
+    padding-top: 80px;
 }
 img{
   display: block;
@@ -20,13 +22,16 @@ img{
    
 }
 .search-form{
+  position: fixed;
+  width: 100vw;
+  z-index: 41;
+  top:0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
   height: 75px;
-  border-radius: 5px;
-  background-color: rgba(183, 184, 204, 0.616);
+  background-color: rgba(5, 16, 221, 0.904);
   margin-bottom: 20px;
 }
 .search-form input{
@@ -34,6 +39,7 @@ img{
   padding:5px 15px 5px 15px;
   height: 50px;
   width: 300px;
+  color: #f5f7f8;
   border: 2px solid rgba(231, 136, 136, 0.274);
   border-radius: 20px;
   background-color: transparent;
