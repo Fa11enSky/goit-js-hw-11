@@ -11,6 +11,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body{
+    background: #f5f7f8;
+}
 img{
   display: block;
   max-width: 100%;
@@ -57,7 +60,26 @@ img{
   text-decoration: none;
 }
 .photo-card{
-  max-width: 300px;
+  max-width: 350px;
+  background: white;
+  text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+  padding: 5px 5px 0 5px;
+    
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+  
+    
+}
+.photo-card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 .info{
   justify-content: center;
